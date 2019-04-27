@@ -1,0 +1,10 @@
+reveal = False
+while reveal == False:
+    print("guess the secret word!\nits a red flower")
+    secret_word = input()
+    if secret_word == "rose" or secret_word == "Rose":
+        reveal = True
+    else:
+        print("sorry, try again")
+if reveal == True:
+    print("Congratulations")
